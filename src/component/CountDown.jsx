@@ -28,7 +28,7 @@ const CountDown = ({ date }) => {
 
   return (
     <>
-    <p>Time remaining to reach the date:</p>
+    <p>Time remaining to Ramedan:</p>
     <p>{timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds</p>
     </>
   );

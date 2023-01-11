@@ -1,11 +1,11 @@
 
 import './App.css';
-import CountDown from './CountDown';
+import CountDown from './component/CountDown';
 
 function App() {
   return (
     <div>
-      <CountDown date={'2023-12-31T23:59:59'} />
+      <CountDown date={'2023-03-21T23:59:59'} />
     </div>
   );
 }
