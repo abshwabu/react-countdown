@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import css from './CountDown.module.css'
 
 const CountDown = ({ date }) => {
   const [timeLeft, setTimeLeft] = useState({
@@ -28,8 +29,8 @@ const CountDown = ({ date }) => {
 
   return (
     <>
-    <p>Time remaining to Ramedan:</p>
-    <p>{timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds</p>
+    <p className={css.title}>Time remaining to Ramedan:</p>
+    <p className={css.time}>{timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes} minutes {timeLeft.seconds} seconds</p>
     </>
   );
 };

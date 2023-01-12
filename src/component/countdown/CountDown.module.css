@@ -1,0 +1,14 @@
+.title{
+    font-weight: 600;
+    font-size: 6rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+
+}
+.time{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    
+}
